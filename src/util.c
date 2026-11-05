@@ -19,3 +19,7 @@ char *allocate_memory(void) {
     char *array = malloc(10 * sizeof(char));
     return array;
 }
+
+void free_tokens(struct Token *tokens) {}
+
+void free_commands(struct Command *commands) {}
